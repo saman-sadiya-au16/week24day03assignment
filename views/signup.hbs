@@ -1,0 +1,26 @@
+<h1>User Form</h1>
+    <div class="container">
+
+    <form action="/signup" method="POST">
+    <div class="form-row">
+    <div class="form-group col-6">
+        <label for="inputEmail4">First name</label>
+        <input type="text" name="first_name" class="form-control" placeholder="First name" value={{first_name}}>
+    </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+        <label for="inputEmail4">Email</label>
+        <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="Email" value={{email}}>
+    </div>
+    </div>
+    <div class="form-row">
+    <div class="form-group col-6">
+        <label for="inputPassword4">Password</label>
+        <input type="password" name="password" class="form-control" id="inputPassword4" placeholder="password">
+    </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Sign up</button>
+</form>
+</div>
